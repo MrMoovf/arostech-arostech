@@ -17,6 +17,10 @@ After you have installed your laravel application
 
 ``php artisan route:cache``
 
+``php artisan view:cache``
+
+``php artisan config:clear``
+
 ``npm run build``
 
 ### The API is now installed
