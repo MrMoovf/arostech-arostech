@@ -1,11 +1,26 @@
 # Aros Tech CMS
 
-## Welcome to the updating guide
+## Welcome to the updating ALL guide
+
+```
+composer update arostech/*
+
+php artisan vendor:publish --tag=arostech-config-mail --force
+
+php artisan route:cache
+
+php artisan view:clear
+
+php artisan config:clear
+
+npm run build``
+
+```
 
 
 ## Welcome to the installation guide
 
-### Please use the following commands
+#### Please use the following commands
 After you have installed your laravel application
 
 ```cd path/to/project```
@@ -15,6 +30,8 @@ After you have installed your laravel application
 ``composer require arostech/arostech ``
 
 ``php artisan vendor:publish --tag=migrations ``
+
+``php artisan vendor:publish --tag=arostech-config-mail --force``
 
 ``php artisan migrate``
 
@@ -26,7 +43,7 @@ After you have installed your laravel application
 
 ``npm run build``
 
-### Then configure your .env-file
+#### Then configure your .env-file
 ```
 APP_NAME={{your_appname}}
 APP_ENV={{either: 'local' | 'production'}}
