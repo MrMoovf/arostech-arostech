@@ -49,12 +49,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MrMoovf/arostech-api-and-api-controller.git",
-                "reference": "50037612a12408b30dcdad6aca0d5b717f43bf03"
+                "reference": "2177a2093e5d08bc4cb3c92ebc649d8a032e3edc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MrMoovf/arostech-api-and-api-controller/zipball/50037612a12408b30dcdad6aca0d5b717f43bf03",
-                "reference": "50037612a12408b30dcdad6aca0d5b717f43bf03",
+                "url": "https://api.github.com/repos/MrMoovf/arostech-api-and-api-controller/zipball/2177a2093e5d08bc4cb3c92ebc649d8a032e3edc",
+                "reference": "2177a2093e5d08bc4cb3c92ebc649d8a032e3edc",
                 "shasum": ""
             },
             "default-branch": true,
@@ -76,7 +76,7 @@
                 "issues": "https://github.com/MrMoovf/arostech-api-and-api-controller/issues",
                 "source": "https://github.com/MrMoovf/arostech-api-and-api-controller/tree/main"
             },
-            "time": "2024-04-11T18:06:02+00:00"
+            "time": "2024-04-12T11:45:33+00:00"
         },
         {
             "name": "arostech/mail",
@@ -84,12 +84,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MrMoovf/arostech-mail.git",
-                "reference": "1f2de1423f679ac55d4d363cbcff8b8187484be0"
+                "reference": "2aa8d5ae7a6697ff7a78682108eb551d5dec09be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MrMoovf/arostech-mail/zipball/1f2de1423f679ac55d4d363cbcff8b8187484be0",
-                "reference": "1f2de1423f679ac55d4d363cbcff8b8187484be0",
+                "url": "https://api.github.com/repos/MrMoovf/arostech-mail/zipball/2aa8d5ae7a6697ff7a78682108eb551d5dec09be",
+                "reference": "2aa8d5ae7a6697ff7a78682108eb551d5dec09be",
                 "shasum": ""
             },
             "default-branch": true,
@@ -121,7 +121,7 @@
                 "issues": "https://github.com/MrMoovf/arostech-mail/issues",
                 "source": "https://github.com/MrMoovf/arostech-mail/tree/main"
             },
-            "time": "2024-04-12T09:30:12+00:00"
+            "time": "2024-04-12T13:59:09+00:00"
         },
         {
             "name": "arostech/migrations-and-models",
