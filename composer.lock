@@ -1,0 +1,183 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b9d15eeefba12662b7076b7254a08030",
+    "packages": [
+        {
+            "name": "arostech/analytics-processing",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MrMoovf/arostech-analytics-processing.git",
+                "reference": "ce079b4122635536f75068884b7474252482e861"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MrMoovf/arostech-analytics-processing/zipball/ce079b4122635536f75068884b7474252482e861",
+                "reference": "ce079b4122635536f75068884b7474252482e861",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Arostech\\Analytics\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aros Tech"
+                }
+            ],
+            "description": "Process raw request data to generate insightful metrics",
+            "support": {
+                "issues": "https://github.com/MrMoovf/arostech-analytics-processing/issues",
+                "source": "https://github.com/MrMoovf/arostech-analytics-processing/tree/main"
+            },
+            "time": "2024-02-11T19:22:05+00:00"
+        },
+        {
+            "name": "arostech/api-and-api-controller",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MrMoovf/arostech-api-and-api-controller.git",
+                "reference": "50037612a12408b30dcdad6aca0d5b717f43bf03"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MrMoovf/arostech-api-and-api-controller/zipball/50037612a12408b30dcdad6aca0d5b717f43bf03",
+                "reference": "50037612a12408b30dcdad6aca0d5b717f43bf03",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Arostech\\Api\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "MrMoovf",
+                    "email": "anderskozuch1998@gmail.com"
+                }
+            ],
+            "description": "Complete routing and controller surface for Laravel Apps in Aros Tech ecosystem",
+            "support": {
+                "issues": "https://github.com/MrMoovf/arostech-api-and-api-controller/issues",
+                "source": "https://github.com/MrMoovf/arostech-api-and-api-controller/tree/main"
+            },
+            "time": "2024-04-11T18:06:02+00:00"
+        },
+        {
+            "name": "arostech/mail",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MrMoovf/arostech-mail.git",
+                "reference": "1f2de1423f679ac55d4d363cbcff8b8187484be0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MrMoovf/arostech-mail/zipball/1f2de1423f679ac55d4d363cbcff8b8187484be0",
+                "reference": "1f2de1423f679ac55d4d363cbcff8b8187484be0",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Arostech\\ServiceProviders\\MailServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Arostech\\Mail\\": "src/Mail/",
+                    "Arostech\\ServiceProviders\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Anders K"
+                }
+            ],
+            "description": "All mail for the Aros Tech CMS",
+            "support": {
+                "issues": "https://github.com/MrMoovf/arostech-mail/issues",
+                "source": "https://github.com/MrMoovf/arostech-mail/tree/main"
+            },
+            "time": "2024-04-12T09:30:12+00:00"
+        },
+        {
+            "name": "arostech/migrations-and-models",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MrMoovf/arostech-migrations-and-models.git",
+                "reference": "f9c114dda5ea901f0702c3ef338d22c90174d788"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MrMoovf/arostech-migrations-and-models/zipball/f9c114dda5ea901f0702c3ef338d22c90174d788",
+                "reference": "f9c114dda5ea901f0702c3ef338d22c90174d788",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Arostech\\Migrations\\MigrationsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Arostech\\Models\\": "src/Models/",
+                    "Arostech\\Migrations\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Anders K"
+                }
+            ],
+            "description": "Migrations and Models for the Aros Tech CMS",
+            "support": {
+                "issues": "https://github.com/MrMoovf/arostech-migrations-and-models/issues",
+                "source": "https://github.com/MrMoovf/arostech-migrations-and-models/tree/main"
+            },
+            "time": "2024-04-11T18:08:10+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "arostech/api-and-api-controller": 20,
+        "arostech/mail": 20,
+        "arostech/analytics-processing": 20,
+        "arostech/migrations-and-models": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
