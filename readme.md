@@ -20,7 +20,7 @@ After you have installed your laravel application
 
 ``php artisan route:cache``
 
-``php artisan view:cache``
+``php artisan view:clear``
 
 ``php artisan config:clear``
 
