@@ -13,7 +13,7 @@
         "psr-4": {
             "Arostech\\Arostech\\": "src/"
         }
-    },
+    }, 
     "authors": [
         {
             "name": "Anders K"
