@@ -25,6 +25,8 @@ After you have installed your laravel application
 
 ```cd path/to/project```
 
+``composer update``
+
 ``composer install ``
 
 ``composer require arostech/arostech ``
