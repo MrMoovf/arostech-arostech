@@ -2,7 +2,7 @@
     "name": "arostech/arostech",
     "description": "The full API installer for the Aros Tech CMS",
     "type": "library",
-    "require": {
+    "require": { 
         "arostech/api-and-api-controller": "^1.0.0",
         "arostech/mail": "^1.0.0",
         "arostech/analytics-processing": "^1.0.0",
