@@ -1,23 +1,5 @@
 {
-    "name": "arostech/arostech",
-    "description": "The full API installer for the Aros Tech CMS",
-    "type": "library",
-    "require": { 
-        "arostech/api-and-api-controller": "^1.0.0",
-        "arostech/mail": "^1.0.0",
-        "arostech/analytics-processing": "^1.0.0",
-        "arostech/migrations-and-models": "^1.0.0"
-    },
-    "license": "proprietary",
-    "autoload": {
-        "psr-4": {
-            "Arostech\\Arostech\\": "src/"
-        }
-    }, 
-    "authors": [
-        {
-            "name": "Anders K"
-        }
-    ],
-    "minimum-stability": "stable"
+    "require": {
+        "arostech/arostech": "^1.0"
+    }
 }
